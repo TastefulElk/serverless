@@ -326,6 +326,8 @@ Resolution of lambda version hashes was improved with better (fixed deterministi
 
 You can adapt your services to use it now, by setting `provider.lambdaHashingVersion` to `20201221`.
 
+While not recommended, you can keep using the old hashing algorithm by setting `provider.lambdaHashingVersion` to `legacy`.
+
 **Notice:** If you apply this on already deployed service without any changes to lambda code, you might encounter an error similar to the one below:
 
 ```
